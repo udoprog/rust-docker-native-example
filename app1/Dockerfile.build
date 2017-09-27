@@ -1,0 +1,5 @@
+FROM rust-dev
+MAINTAINER John-John Tedro <udoprog@tedro.se>
+ADD . /buildroot
+WORKDIR /buildroot
+RUN cargo build --release

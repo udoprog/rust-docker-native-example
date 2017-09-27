@@ -1,0 +1,7 @@
+[package]
+name = "dockerstress"
+version = "0.1.0"
+authors = ["John-John Tedro <udoprog@spotify.com>"]
+
+[dependencies]
+openssl = "0.9.19"
